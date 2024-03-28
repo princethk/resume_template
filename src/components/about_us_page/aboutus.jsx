@@ -96,7 +96,7 @@ export default function ButtonMUI() {
               />
             </Link>
 
-            <Link to="https://www.linkedin.com/in/akhileshpratap001/">
+            <Link to="www.linkedin.com/in/prince-thakur-b4862b21a">
               <LinkedInIcon
                 sx={{ fontSize: "40px", paddingLeft: "15px" }}
                 color="primary"
@@ -114,7 +114,7 @@ export default function ButtonMUI() {
                 color="info"
               />
             </Link>
-            <Link to="https://github.com/AKHILESHPRATAP96">
+            <Link to="https://github.com/princethk">
               <GitHub
                 sx={{ fontSize: "40px", paddingLeft: "15px", color: "black" }}
               />
