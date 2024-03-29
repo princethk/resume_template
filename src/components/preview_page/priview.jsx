@@ -3,7 +3,7 @@ import DrawerAppBar from "../navbar/navbar";
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-import { Button, Container, Grid, Stack, Typography} from "@mui/material";
+import { Button, Container,Typography} from "@mui/material";
 import Template1 from "../homepage/template1";
 import Template2 from "../homepage/template2";
 import Template3 from "../homepage/template3";
@@ -54,8 +54,8 @@ function Previewpage(){
      
   
       // Calculate the width and height of the PDF document
-      const width = pdf.internal.pageSize.getWidth();
-      const height = pdf.internal.pageSize.getHeight();
+     // const width = pdf.internal.pageSize.getWidth();
+     // const height = pdf.internal.pageSize.getHeight();
       
   
       // Add the canvas image to the PDF document
@@ -84,10 +84,10 @@ function Previewpage(){
       <div className="resume-preview-grid-container">
         <div className="resume-preview-grid-item" id="previewresume">
       
-         {(Template==TEMPLATE_1)&&<Item><Template1 input={input}/></Item>}
-        {(Template==TEMPLATE_2)&&<Item><Template2 input={input}/></Item>}
-       { (Template==TEMPLATE_3)&&<Item><Template3 input={input}/></Item>}
-        {(Template==TEMPLATE_4)&&<Item><Template4 input={input}/></Item>}
+         {(Template===TEMPLATE_1)&&<Item><Template1 input={input}/></Item>}
+        {(Template===TEMPLATE_2)&&<Item><Template2 input={input}/></Item>}
+       { (Template===TEMPLATE_3)&&<Item><Template3 input={input}/></Item>}
+        {(Template===TEMPLATE_4)&&<Item><Template4 input={input}/></Item>}
         </div>
         
         <div style={{display:"flex",justifyContent:"center",alignItems:"center",margin:2}}><Typography variant='h5'>Download your resume</Typography>
