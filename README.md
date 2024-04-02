@@ -104,12 +104,8 @@
 * About us
 
 *__Live Link__* <br/>
-<b> https://resumebuilder02.netlify.app/</b>
+<b>https://resume-temppr.netlify.app/</b>
 
-</hr>
-
-*__Demo Video__* </br>
-<b>https://www.youtube.com/watch?v=vHYAhyo6f0U</b>
 
 
 
